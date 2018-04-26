@@ -1,8 +1,10 @@
+@import "reset";
 @import "variables";
 @import "home";
 
-body {
-
-   background: $color1;
-
+html, body{
+  font-size: 18px;
+  background: $color1;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  height: 100%;
 }
