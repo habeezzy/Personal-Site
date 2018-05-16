@@ -1,0 +1,41 @@
+.resume {
+ .info-section{
+   width: 20%;
+ }
+
+ .content-area{
+   background: $color3;
+   margin-left: 20%;
+   width: 80%;
+   min-width: 300px;
+   background: white;
+   height: 100%;
+   padding: 56px;
+
+   h1{
+     font-weight: 700;
+     font-size: 2rem;
+     text-transform: uppercase;
+   }
+
+
+   .xp-section{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+
+     .xp-box{
+       padding: 30px;
+
+       h5{
+         font-weight: 500;
+         font-size: 1.3rem;
+         margin-bottom: 1.4rem;
+       }
+       p{
+         font-weight: 300;
+         font-size: 1rem;
+       }
+     }
+   }
+ }
+}
