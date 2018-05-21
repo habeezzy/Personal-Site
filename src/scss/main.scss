@@ -4,6 +4,7 @@
 @import "home";
 @import "resume";
 @import "work";
+@import "contact";
 
 * {
   box-sizing: border-box;
@@ -38,7 +39,7 @@ html, body{
   border-radius: 30px;
   text-align: center;
   color: $color3;
-  padding:  15px 30px;
+  padding: 15px 30px;
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 3px;

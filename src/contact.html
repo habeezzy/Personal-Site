@@ -7,16 +7,16 @@
     <!-- <link rel="stylesheet" href="./scss/main.css"> -->
     <title></title>
   </head>
-  <body class="home">
+  <body class="contact">
     <div class="menu-icon">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <section id="menu">
       <nav>
-        <a href="./index.html">Home</a>
-        <a href="./index.html">About</a>
-        <a href="./work.html">Portfolio</a>
-        <a href="./contact.html">Contact</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
       </nav>
     </section>
     <section class="info-section">
@@ -41,18 +41,36 @@
 
     <section class="content-area">
       <div class="img-container">
-        <div class="user-img"></div>
-      </div>
-      <div class="profile-section">
-        <div class="profile">
-          <h1>Muhammad <br>
-            <span>A. Habeebulah</span></h1>
-          <h5>Web Developer</h5>
-          <p>Hi My name is Muhammad Habeebulah, a 29 year-old creative from North Carolina.  I build websites and dynamic apps for myself and others.</p>
-          <a href="./work.html" class="primary-btn">Portfolio</a>
-          <a href="./resume.html" class="ghost-btn">Resume</a>
-          <a href="./contact.html" class="ghost-btn">Contact</a>
+        <div class="form-section">
+          <form action="/" method="post">
+            <h4>Send a Message</h4>
+            <input type="text" name="name" required placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="budget" placeholder="Budget">
+            <textarea name="message" rows="12" required placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
         </div>
+      </div>
+
+      <div class="contact-section">
+        <div class="profile">
+          <div class="contact-box">
+            <h5>Phone</h5>
+            <p>(336) 681-2845</p>
+          </div>
+          <div class="contact-box">
+            <h5>Email</h5>
+            <p>mhabeebulah@gmail.com</p>
+          </div>
+          <div class="contact-box">
+            <h5>Address</h5>
+            <p>Detroit, MI</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
       </div>
     </section>
   <script type="text/javascript" src="./js/index.js"></script>
