@@ -1,6 +1,5 @@
 import '../scss/main.scss'
 
-
 //Image imports//
 import img3 from '../img/img3.jpg'
 import img1 from '../img/img1.jpg'
