@@ -2,6 +2,7 @@
   .info-section{
     padding: 54px;
     width: 35%;
+    position: fixed;
   }
 
  .content-area{
@@ -11,7 +12,6 @@
    background: white;
    height: 100%;
    // padding: 0 0 0 25%;
-
 
    .img-container {
       width: 30%;
@@ -117,8 +117,228 @@
            margin: 0 0 2rem 0;
          }
        }
-
       }
    }
  }
 }
+
+/////phone/////
+@media (min-width: 0px) and (max-width: 767px) {
+  .contact {
+    .menu-icon {
+      top: -3px;
+      right: 20px;
+      color: white;
+
+      .fa {
+        color: white;
+      }
+    }
+
+    .content-area {
+      height: auto;
+
+     &:after {
+       content: "";
+       display: table;
+       clear: both;
+     }
+    }
+
+    .info-section{
+      // display: none;
+      padding: 10px 20px;
+      // left: 0;
+      // bottom: 0;
+      // top: 0;
+      position: static;
+      // width: 35%;
+
+      .logo{
+        height: 50px;
+        width: 70px;
+        font-size: 1rem;
+      }
+      .info-box{
+        display: none;
+      }
+    }
+
+    .content-area {
+      margin-left: 0;
+      width: 100%;
+
+      // &:after {
+      //   content: "";
+      //   display: table;
+      //   clear: both;
+      // }
+
+      .img-container {
+        width: 100%;
+        // position: absolute;
+        height: auto;
+        padding: 56px 20px 0;
+
+        .form-section {
+          position: static;
+          width: 100%;
+          height: auto;
+          overflow: auto;
+        }
+      }
+
+      .contact-section {
+        width: 100%;
+        float: left;
+        padding: 20px 20px 0;
+
+        .ghost-btn,
+        .primary-btn {
+          margin-right: 15px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+ }
+
+/////tablet/////
+@media (min-width: 768px) and (max-width: 991px)  {
+  .contact {
+    .content-area {
+      height: auto;
+
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .img-container {
+        width: 100%;
+        padding: 56px 20px 0;
+        height: auto;
+
+        .form-section {
+          position: static;
+          width: 100%;
+          height: auto;
+          overflow: auto;
+        }
+      }
+      .contact-section {
+        width: 100%;
+        float: left;
+        padding: 20% 20px 0;
+      }
+    }
+  }
+ }
+
+/////laptop/////
+@media (min-width: 992px) and (max-width: 1199) {
+  .contact {
+    .content-area {
+      height: auto;
+
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .img-container {
+        padding: 56px 20px 0;
+        float: left;
+        height: auto;
+        width: 100%;
+
+        .form-section {
+          position: static;
+          width: 100%;
+          float: left;
+          height: auto;
+          overflow: auto;
+        }
+      }
+
+      .contact-section {
+        width: 70%;
+        float: right;
+        padding: 20% 20px 0;
+        max-width: 800px;
+      }
+    }
+  }
+}
+
+ /////extra big/////
+@media (min-width: 1200) {
+  .contact {
+    // .info-section{
+    //   .icon-section{
+    //     a{
+    //
+    //     }
+    //   }
+    // }
+
+
+    .content-area {
+      .img-container {
+        padding: 56px 20px 0;
+        float: left;
+
+        .form-section {
+          // position: static;
+          // width: 100%;
+          left: -157px;
+          width: 400;
+        }
+      }
+      .contact-section {
+        width: 70%;
+        float: left;
+        padding: 20% 60px 0;
+        max-width: 800px;
+        //padding: 20% 20px 0;
+     }
+    }
+   }
+ }
+
+ //super extra large //
+ @media (min-width: 1500px) {
+   .contact {
+     // .info-section{
+     //   .icon-section{
+     //     a{
+     //
+     //     }
+     //   }
+     // }
+
+
+     .content-area {
+       .img-container {
+         padding: 56px 20px 0;
+         float: left;
+
+         .form-section {
+           // position: static;
+           // width: 100%;
+           left: -250px;
+           width: 500;
+         }
+       }
+       .contact-section {
+         width: 70%;
+         float: left;
+         padding: 20% 60px 0;
+         max-width: 800px;
+         //padding: 20% 20px 0;
+      }
+     }
+    }
+  }
