@@ -312,8 +312,179 @@
   }
 }
 
-
      }
    }
  }
+}
+
+
+
+/////phone/////
+@media (min-width: 0px) and (max-width: 767px) {
+  html,
+  body {
+    height: auto;
+  }
+
+  .work {
+    .menu-icon {
+      top: -3px;
+      right: 20px;
+      color: white;
+
+      .fa {
+        color: white;
+      }
+    }
+
+    .info-section{
+      // display: none;
+      padding: 10px 30px;
+      // left: 0;
+      // bottom: 0;
+      // top: 0;
+      position: static;
+      // width: 35%;
+
+      .logo{
+        height: 50px;
+        width: 70px;
+        font-size: 1rem;
+      }
+      .info-box{
+        display: none;
+      }
+    }
+
+    .content-area {
+      margin-left: 0;
+      width: 100%;
+      height: auto;
+
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .scroll-section{
+        padding: 50px 20px;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+      }
+
+     .work-section{
+       width: 100%;
+
+       .project-section {
+         grid-template-columns: 1fr;
+       }
+     }
+    }
+  }
+ }
+
+/////tablet/////
+@media (min-width: 768px) and (max-width: 991px)  {
+  .work {
+    .info-section{
+      width: 30%;
+      padding: 56px 20px;
+
+
+      .icon-section {
+        a{
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    .content-area {
+      height: auto;
+      width: 70%;
+      margin-left: 30%;
+
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .work-section{
+        width: 90%;
+
+        .project-section {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
+ }
+
+/////laptop/////
+@media (min-width: 992px) and (max-width: 1199) {
+  .work {
+    .info-section{
+      width: 30%;
+      padding: 56px 20px;
+
+      .icon-section {
+        a{
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    .content-area {
+      height: auto;
+      width: 70%;
+      margin-left: 30%;
+
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+       }
+     }
+   }
+ }
+
+ /////extra big/////
+@media (min-width: 1200) {
+  .work {
+    .info-section{
+      width: 30%;
+      padding: 56px 30px;
+
+
+      .icon-section {
+        a{
+          font-size: 1.4rem;
+        }
+      }
+    }
+    .content-area {
+
+    }
+  }
+}
+
+ //super extra large //
+ @media (min-width: 1500px) {
+   .work {
+     .info-section{
+       width: 30%;
+       padding: 56px 30px;
+
+
+       .icon-section {
+         a{
+           font-size: 1.4rem;
+         }
+       }
+     }
+     .content-area {
+
+     }
+  }
 }

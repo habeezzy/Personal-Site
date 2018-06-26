@@ -40,6 +40,8 @@
       padding: 20% 0 0;
       max-width: 500px;
 
+
+
      .profile{
        h1{
          font-size: 2.3rem;
@@ -68,10 +70,6 @@
 }
 
 
-
-
-
-
 /////phone/////
 @media (max-width: 767px) {
   .home {
@@ -87,6 +85,8 @@
 
     .content-area {
       height: auto;
+      overflow: auto;
+
      &:after {
        content: "";
        display: table;
@@ -117,6 +117,7 @@
       margin-left: 0;
       width: 100%;
 
+
       .img-container {
         position: absolute;
         height: 90%;
@@ -139,7 +140,6 @@
           margin-right: 15px;
           margin-bottom: 20px;
         }
-
       }
     }
   }
@@ -148,6 +148,16 @@
 /////tablet/////
 @media (min-width: 768px) and (max-width: 991px)  {
   .home {
+    .info-section{
+      width: 30%;
+      padding: 56px 20px;
+
+      .icon-section {
+        a{
+          font-size: 1.4rem;
+        }
+      }
+    }
     .content-area {
       .img-container {
         padding: 56px 20px 0;
@@ -161,13 +171,19 @@
         width: 70%;
         float: right;
         padding: 20% 20px 0;
+
+        .ghost-btn,
+        .primary-btn {
+          margin-right: 15px;
+          margin-bottom: 20px;
+        }
       }
     }
   }
  }
 
 /////laptop/////
-@media (min-width: 992px) and (max-width: 1199) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .home {
     .content-area {
       .img-container {
@@ -175,8 +191,8 @@
         float: left;
 
         .user-img {
-          position: absolute;
-          width: 300px;
+          position: static;
+          width: 100%;
         }
       }
 
@@ -184,7 +200,13 @@
         width: 70%;
         float: left;
         padding: 20% 20px 0;
-        max-width: 400px;
+        max-width: 800px;
+
+        .ghost-btn,
+        .primary-btn {
+          margin-right: 15px;
+          margin-bottom: 20px;
+        }
       }
     }
   }
@@ -192,16 +214,29 @@
 
 
  /////extra big/////
-@media (min-width: 1200) {
+@media (min-width: 1200px) and (max-width: 1500px) {
   .home {
+    .info-section{
+      width: 20%;
+      padding: 56px 30px;
+
+      .icon-section {
+        a{
+          font-size: 1.4rem;
+        }
+      }
+    }
     .content-area {
+      width: 80%;
+      margin-left: 20%;
+
       .img-container {
         padding: 56px 20px 0;
         float: left;
 
         .user-img {
-          // position: static;
-          // width: 100%;
+          position: static;
+          width: 100%;
         }
       }
 
@@ -211,6 +246,12 @@
         padding: 20% 60px 0;
         max-width: 800px;
         //padding: 20% 20px 0;
+
+        .ghost-btn,
+        .primary-btn {
+          margin-right: 15px;
+          margin-bottom: 20px;
+        }
      }
     }
    }
