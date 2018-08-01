@@ -8,9 +8,8 @@
   "npm": ">=3"
   },
   "scripts": {
-    "watch": "parcel src/index.html --public-url ./",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss-compile": "node-sass -o src/scss src/scss",
+    "start": "parcel src/index.html --public-url ./",
+    "build": "parcel build src/index.html && npm run open:dist",
     "heroku-prebuild": "",
     "heroku-postbuild": "babel-node tools/build.js"
   },
