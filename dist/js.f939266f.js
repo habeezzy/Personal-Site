@@ -4,13 +4,13 @@ module.exports="/img3.21232dc7.jpg";
 module.exports="/LIMM.572fe28a.jpg";
 },{}],12:[function(require,module,exports) {
 module.exports="/itJS.8f28ac42.jpg";
-},{}],15:[function(require,module,exports) {
+},{}],9:[function(require,module,exports) {
 
 },{"./..\\img\\img3.jpg":14,"./..\\img\\LIMM.jpg":13,"./..\\img\\itJS.jpg":12}],10:[function(require,module,exports) {
 module.exports="/img1.b98c9d68.jpg";
 },{}],11:[function(require,module,exports) {
 module.exports="/img2.75c1c173.jpg";
-},{}],6:[function(require,module,exports) {
-"use strict";require("../scss/main.css"),require("../scss/main.scss");var i=require("../img/img3.jpg"),e=j(i),r=require("../img/img1.jpg"),s=j(r),g=require("../img/img2.jpg"),u=j(g),m=require("../img/itJS.jpg"),q=j(m),c=require("../img/LIMM.jpg"),t=j(c);function j(i){return i&&i.__esModule?i:{default:i}}
-},{"../scss/main.css":15,"../scss/main.scss":15,"../img/img3.jpg":14,"../img/img1.jpg":10,"../img/img2.jpg":11,"../img/itJS.jpg":12,"../img/LIMM.jpg":13}]},{},[6])
-//# sourceMappingURL=/work.80e57cc5.map
+},{}],5:[function(require,module,exports) {
+"use strict";require("../scss/main.scss");var e=require("../img/img3.jpg"),i=s(e),c=require("../img/img1.jpg"),n=s(c),t=require("../img/img2.jpg"),u=s(t),a=require("../img/itJS.jpg"),o=s(a),r=require("../img/LIMM.jpg"),g=s(r);function s(e){return e&&e.__esModule?e:{default:e}}$(document).ready(function(){$(".fa").click(function(){$(".home").toggleClass("menu-active")})}),$(document).ready(function(){$(".fa").click(function(){$(".resume").toggleClass("menu-active")})}),$(document).ready(function(){$(".fa").click(function(){$(".contact").toggleClass("menu-active")})}),$(document).ready(function(){$(".fa").click(function(){$(".work").toggleClass("menu-active")})}),$(document).ready(function(){$(".fa").click(function(){$("i").toggleClass("fa-bars fa-times")})});
+},{"../scss/main.scss":9,"../img/img3.jpg":14,"../img/img1.jpg":10,"../img/img2.jpg":11,"../img/itJS.jpg":12,"../img/LIMM.jpg":13}]},{},[5])
+//# sourceMappingURL=/js.aa30f5af.map

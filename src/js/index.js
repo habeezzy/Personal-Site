@@ -1,4 +1,3 @@
-import '../scss/main.css'
 import '../scss/main.scss'
 
 //Image imports//

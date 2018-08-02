@@ -9,9 +9,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html --public-url ./",
-    "build": "parcel build src/index.html && npm run open:dist",
-    "heroku-prebuild": "",
-    "heroku-postbuild": "babel-node tools/build.js"
+    "build": "parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
