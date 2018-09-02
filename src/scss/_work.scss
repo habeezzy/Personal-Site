@@ -317,6 +317,107 @@
  }
 }
 
+//// project box 4/////
+
+.project-box3{
+  background-image: url('../img/Ntune.jpg');
+  position: relative;
+  padding: 30px;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+
+  &:hover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 0px 20px 74px 6px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 20px 74px 6px rgba(0,0,0,0.12);
+    box-shadow: 0px 20px 74px 6px rgba(0,0,0,0.12);
+  }
+
+  .grey-bg{
+    background-color: #efefef;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+
+
+    &:hover{
+      opacity: 0.9;
+
+      .project-info{
+        .project-details{
+          transform: translate3d(0, 0, 0);
+        }
+        .project-title{
+          transform: translate3d(0, 0, 0);
+        }
+      }
+    }
+
+    .project-info{
+      padding: 56px;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+
+      .project-details{
+        position: relative;
+        font-size: 1.1rem;
+        text-transform: capitalize;
+        margin: 0 0 1rem;
+        transform: translate3d(-200px, 0, 0);
+        // opacity: 0;
+        transition: all 0.3s ease-in-out;
+      }
+      .project-title{
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        transform: translate3d(-100px, 0, 0);
+        // opacity: 0;
+        transition: all 0.4s ease-in-out 0.1s;
+
+      }
+      .fa-long-arrow-right{
+        position: absolute;
+        bottom: 56px;
+        right: 56px;
+        font-size: 3rem;
+
+      }
+    }
+  }
+
+  h5{
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+  }
+  p{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+//      }
+//    }
+//  }
+// }
+
+
 
 
 /////phone/////

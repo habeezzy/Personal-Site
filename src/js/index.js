@@ -7,6 +7,7 @@ import img2 from '../img/img2.jpg'
 import itJS from '../img/itJS.jpg'
 import LIMM from '../img/LIMM.jpg'
 import HTML from '../img/HTMLresponsive.jpg'
+import ntune from '../img/Ntune.jpg'
 
 //////////////////
 
